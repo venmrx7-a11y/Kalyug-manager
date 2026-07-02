@@ -5,7 +5,7 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.environ.get('BOT_TOKEN', "8789490273:AAGaJMun6SLTe0kxwfTu85Jvdt0ciYdJk-k")
-OWNER_ID = int(os.environ.get('OWNER_ID',8471373583))
+OWNER_ID = int(os.environ.get('OWNER_ID',7977493987 ))
 ADMIN_IDS = [OWNER_ID]
 
 # Files
