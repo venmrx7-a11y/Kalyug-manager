@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: premium-bot
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8789490273:AAGaJMun6SLTe0kxwfTu85Jvdt0ciYdJk-k
+      - key: OWNER_ID
+        value: 8471373583
+    healthCheckPath: /health
+    autoDeploy: true
+    numReplicas: 1
