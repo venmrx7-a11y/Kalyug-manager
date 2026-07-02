@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-BOT_TOKEN = os.environ.get('BOT_TOKEN', "8789490273:AAGaJMun6SLTe0kxwfTu85Jvdt0ciYdJk-k")
-OWNER_ID = int(os.environ.get('OWNER_ID',7977493987 ))
+BOT_TOKEN = os.environ.get('BOT_TOKEN', "8999246230:AAG23Gx0QyCMHOmvMMs00TFjUBW8AO-OZxw")
+OWNER_ID = int(os.environ.get('OWNER_ID',7977493987))
 ADMIN_IDS = [OWNER_ID]
 
 # Files
