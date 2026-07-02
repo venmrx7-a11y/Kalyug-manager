@@ -4,13 +4,16 @@ services:
     env: python
     region: oregon
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
         value: 8789490273:AAGaJMun6SLTe0kxwfTu85Jvdt0ciYdJk-k
       - key: OWNER_ID
         value: 7977493987
+      - key: PORT
+        value: 10000
     healthCheckPath: /health
     autoDeploy: true
-    numReplicas: 1
