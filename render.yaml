@@ -10,7 +10,7 @@ services:
       - key: BOT_TOKEN
         value: 8789490273:AAGaJMun6SLTe0kxwfTu85Jvdt0ciYdJk-k
       - key: OWNER_ID
-        value: 8471373583
+        value: 7977493987
     healthCheckPath: /health
     autoDeploy: true
     numReplicas: 1
